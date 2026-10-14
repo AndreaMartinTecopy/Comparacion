@@ -1,0 +1,1413 @@
+<!DOCTYPE html>
+<html lang="es" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Benchmark Integral de Herramientas de Autor E-Learning | Comparativa 360°</title>
+  <meta name="description" content="Dashboard comparativo integral de herramientas de autor e-learning: isEazy Author, Articulate Storyline, Articulate Rise, iSpring Suite, Genially, Gomo y Adobe Captivate comparados en cada sección.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app-container">
+
+  <!-- SIDEBAR NAVIGATION -->
+  <aside class="sidebar">
+    <div class="brand-wrapper">
+      <a href="#" class="brand">
+        <div class="brand-icon">BM</div>
+        <div class="brand-text">
+          <h1>E-Learning Benchmark</h1>
+          <span>7 Herramientas Comparadas</span>
+        </div>
+      </a>
+    </div>
+
+    <nav class="sidebar-nav">
+      <div class="nav-label">Comparativa por Apartados</div>
+      <a href="#intro" class="nav-item active">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+        1. Comparativa UX & Cloud
+      </a>
+      <a href="#estructura" class="nav-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+        2. Formatos & Branding
+      </a>
+      <a href="#multimedia" class="nav-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+        3. Multimedia & Dinamismo
+      </a>
+      <a href="#gamificacion" class="nav-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 11h4M8 9v4m10-4v4m-2-2h4M6 19h12a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2z"></path></svg>
+        4. Gamificación & Evaluación
+      </a>
+      <a href="#ia-servicios" class="nav-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4m0 12v4M4.93 4.93l2.83 2.83m8.48 8.48l2.83 2.83M2 12h4m12 0h4M4.93 19.07l2.83-2.83m8.48-8.48l2.83-2.83"></path></svg>
+        5. Inteligencia Artificial (IA)
+      </a>
+      <a href="#colaboracion" class="nav-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+        6. Colaboración & Accesibilidad
+      </a>
+      <a href="#publicacion" class="nav-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+        7. Distribución & LMS
+      </a>
+
+      <div class="nav-label">Análisis de Mercado</div>
+      <a href="#benchmark" class="nav-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+        8. Matriz Global (7 Herramientas)
+      </a>
+      <a href="#competidores" class="nav-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+        8.2. Fichas Cara a Cara
+      </a>
+
+      <div class="nav-label">Estrategia Interna</div>
+      <a href="#ideacion" class="nav-item">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9.663 17h4.673M12 3v1m6.364 1.636l-.707.707M21 12h-1M4 12H3m3.343-5.657l-.707-.707m2.828 9.9a5 5 0 1 1 7.072 0l-.548.547A3.374 3.374 0 0 0 14 18.469V19a2 2 0 1 1-4 0v-.531c0-.895-.356-1.754-.988-2.386l-.548-.547z"></path></svg>
+        9. Casos de Uso & Registro
+      </a>
+    </nav>
+
+    <div class="sidebar-footer">
+      <div class="score-badge">
+        <div class="score-info">
+          <span class="score-title">Herramientas en Estudio</span>
+          <span class="score-val">7 Soluciones</span>
+        </div>
+        <span class="pill-tag" style="background: rgba(99,102,241,0.2); color: #a5b4fc; font-weight:700;">360°</span>
+      </div>
+    </div>
+  </aside>
+
+  <!-- MAIN WRAPPER -->
+  <div class="main-wrapper">
+
+    <!-- TOP HEADER -->
+    <header class="top-header">
+      <div class="header-left">
+        <button id="mobile-menu-btn" class="mobile-menu-btn" aria-label="Abrir menú">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+        </button>
+        <div class="search-box">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
+          <input type="text" id="global-search" placeholder="Buscar herramienta, capacidad, IA o soporte..." aria-label="Buscar funcionalidad">
+        </div>
+      </div>
+
+      <div class="header-right">
+        <button id="theme-toggle-btn" class="btn-icon" title="Cambiar tema (Claro / Oscuro)">
+          <svg id="theme-icon" width="20" height="20" viewBox="0 0 24 24" fill="none"></svg>
+        </button>
+        <a href="#benchmark" class="btn-primary">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+          Ver Matriz Global
+        </a>
+      </div>
+    </header>
+
+    <!-- CONTENT BODY -->
+    <main class="content-body">
+
+      <!-- HERO BANNER -->
+      <section class="hero-banner">
+        <div class="hero-tag">
+          <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+          Benchmark Comparativo Integral E-Learning
+        </div>
+        <h1 class="hero-title">Comparativa de Herramientas de Autor E-Learning</h1>
+        <p class="hero-desc">
+          Análisis comparativo exhaustivo, apartado por apartado, de las soluciones líderes del mercado: <strong>isEazy Author, Articulate Storyline, Articulate Rise, iSpring Suite (AI), Genially, Gomo y Adobe Captivate</strong>.
+        </p>
+
+        <!-- Metrics Grid -->
+        <div class="metrics-grid">
+          <div class="metric-card">
+            <div class="metric-icon-box purple">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+            </div>
+            <div class="metric-data">
+              <h4><span class="counter-val" data-target="7">7</span> Suites</h4>
+              <p>Soluciones Analizadas</p>
+            </div>
+          </div>
+
+          <div class="metric-card">
+            <div class="metric-icon-box cyan">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+            </div>
+            <div class="metric-data">
+              <h4><span class="counter-val" data-target="8">8</span> Bloques</h4>
+              <p>Criterios de Evaluación</p>
+            </div>
+          </div>
+
+          <div class="metric-card">
+            <div class="metric-icon-box emerald">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>
+            </div>
+            <div class="metric-data">
+              <h4>$0 a $1,499</h4>
+              <p>Rango Tarifario Anual</p>
+            </div>
+          </div>
+
+          <div class="metric-card">
+            <div class="metric-icon-box amber">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+            </div>
+            <div class="metric-data">
+              <h4>4.1 a 4.9</h4>
+              <p>Valoración en G2</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN 1: COMPARATIVA UX Y ENTORNO -->
+      <section id="intro" class="section-block">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-number">1</span>
+            <div>
+              <h2 class="section-title">1. Experiencia de Usuario, Curva de Aprendizaje y Entorno</h2>
+              <p class="section-subtitle">Comparativa de modelos operativos: SaaS Cloud vs. Escritorio tradicional vs. Complementos de Office</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-takeaway-bar">
+          <div class="takeaway-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="16" x2="12" y2="12"></line><line x1="12" y1="8" x2="12.01" y2="8"></line></svg>
+          </div>
+          <div>
+            <strong>Resumen comparativo del bloque:</strong> Mientras que herramientas modernas como <em>isEazy Author</em> y <em>Articulate Rise</em> apuestan por entornos 100% cloud de curva nula, las suites tradicionales (<em>Storyline, Captivate</em>) exigen instalación de escritorio pesada y semanas de formación técnica para empezar a producir.
+          </div>
+        </div>
+
+        <div class="comparative-grid">
+          <!-- isEazy Author -->
+          <div class="comp-card highlight">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-iseazy">isEazy Author</span>
+              <span class="comp-model-label">Cloud SaaS</span>
+            </div>
+            <div class="comp-title">100% Nube & WYSIWYG Real</div>
+            <p class="comp-desc">
+              Edición visual en tiempo real sin esperas. El autor diseña directamente viendo cómo reaccionará el contenido sin compilar ni previsualizar en ventanas aisladas.
+            </p>
+            <ul class="comp-features-list">
+              <li><span>✓</span> <strong>Curva de aprendizaje:</strong> Nula (adopción inmediata sin conocimientos previos).</li>
+              <li><span>✓</span> <strong>Auto-responsivo:</strong> 100% automático en móvil, tablet y PC.</li>
+              <li><span>✓</span> <strong>Compatibilidad:</strong> Cualquier navegador (Windows, Mac, Linux, Chromebook).</li>
+            </ul>
+            <div class="comp-footer-tag">
+              <span>Rendimiento: <strong>Muy Alto</strong></span>
+              <span style="color:#10b981; font-weight:700;">G2: 4.9/5</span>
+            </div>
+          </div>
+
+          <!-- Articulate Rise -->
+          <div class="comp-card">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-rise">Articulate Rise</span>
+              <span class="comp-model-label">Cloud SaaS</span>
+            </div>
+            <div class="comp-title">Agilidad en Bloques Verticales</div>
+            <p class="comp-desc">
+              Enfoque cloud moderno basado en apilar bloques modulares preconfigurados. Muy rápido y limpio, aunque restringido a su estructura rígida de scroll.
+            </p>
+            <ul class="comp-features-list">
+              <li><span>✓</span> <strong>Curva de aprendizaje:</strong> Nula / Muy baja.</li>
+              <li><span>✓</span> <strong>Auto-responsivo:</strong> Excelente adaptación en móviles.</li>
+              <li><span>⚠</span> <strong>Flexibilidad:</strong> Baja (todos los cursos tienen el mismo aspecto visual).</li>
+            </ul>
+            <div class="comp-footer-tag">
+              <span>Rendimiento: <strong>Alto</strong></span>
+              <span style="color:#38bdf8; font-weight:700;">G2: 4.5/5</span>
+            </div>
+          </div>
+
+          <!-- Articulate Storyline -->
+          <div class="comp-card">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-storyline">Articulate Storyline</span>
+              <span class="comp-model-label">Escritorio Windows</span>
+            </div>
+            <div class="comp-title">Potencia de Capas & Triggers</div>
+            <p class="comp-desc">
+              Software de escritorio tradicional semejante a PowerPoint avanzado. Máxima libertad para programar interacciones, pero a costa de alta complejidad.
+            </p>
+            <ul class="comp-features-list">
+              <li><span>✕</span> <strong>Curva de aprendizaje:</strong> Alta (requiere semanas de formación técnica).</li>
+              <li><span>✕</span> <strong>Auto-responsivo:</strong> No nativo (diseño por lienzo fijo que reescala o exige vistas).</li>
+              <li><span>✕</span> <strong>Plataforma:</strong> Exclusivo Windows (Mac solo vía Parallels/VMware).</li>
+            </ul>
+            <div class="comp-footer-tag">
+              <span>Rendimiento: <strong>Medio (local)</strong></span>
+              <span style="color:#60a5fa; font-weight:700;">G2: 4.7/5</span>
+            </div>
+          </div>
+
+          <!-- iSpring Suite -->
+          <div class="comp-card">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-ispring">iSpring Suite (AI)</span>
+              <span class="comp-model-label">Plugin PowerPoint + Cloud</span>
+            </div>
+            <div class="comp-title">Integrado en Microsoft PowerPoint</div>
+            <p class="comp-desc">
+              Funciona como pestaña complementaria sobre MS PowerPoint en Windows. Ideal para perfiles acostumbrados a diapositivas corporativas de Office.
+            </p>
+            <ul class="comp-features-list">
+              <li><span>✓</span> <strong>Curva de aprendizaje:</strong> Baja (si ya se domina PowerPoint a fondo).</li>
+              <li><span>⚠</span> <strong>Auto-responsivo:</strong> Adaptativo (reproduce diapositivas fijas que encojen en móvil).</li>
+              <li><span>✕</span> <strong>Dependencia:</strong> Obliga a disponer de licencia local de Office y Windows.</li>
+            </ul>
+            <div class="comp-footer-tag">
+              <span>Rendimiento: <strong>Depende de PPT</strong></span>
+              <span style="color:#c084fc; font-weight:700;">G2: 4.6/5</span>
+            </div>
+          </div>
+
+          <!-- Genially -->
+          <div class="comp-card">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-genially">Genially</span>
+              <span class="comp-model-label">Cloud SaaS</span>
+            </div>
+            <div class="comp-title">Lienzo Visual Creativo</div>
+            <p class="comp-desc">
+              Orientado a infografías y presentaciones de alto impacto visual. Entorno WYSIWYG en lienzo libre, aunque menos enfocado a estructuración instruccional.
+            </p>
+            <ul class="comp-features-list">
+              <li><span>⚠</span> <strong>Curva de aprendizaje:</strong> Media (diseño gráfico manual sobre lienzo).</li>
+              <li><span>⚠</span> <strong>Auto-responsivo:</strong> Reescalado proporcional en móvil (puede requerir zoom).</li>
+              <li><span>✓</span> <strong>Compatibilidad:</strong> 100% en la nube desde cualquier navegador.</li>
+            </ul>
+            <div class="comp-footer-tag">
+              <span>Rendimiento: <strong>Medio</strong></span>
+              <span style="color:#f472b6; font-weight:700;">G2: 4.8/5</span>
+            </div>
+          </div>
+
+          <!-- Adobe Captivate & Gomo -->
+          <div class="comp-card">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-captivate">Adobe Captivate / Gomo</span>
+              <span class="comp-model-label">Captivate (Local) / Gomo (Cloud)</span>
+            </div>
+            <div class="comp-title">Herramientas Técnicas Tradicionales</div>
+            <p class="comp-desc">
+              <em>Captivate</em> destaca en grabaciones de software pero arrastra la curva más dura del sector. <em>Gomo</em> ofrece arquitectura web multi-dispositivo pero sin WYSIWYG en tiempo real.
+            </p>
+            <ul class="comp-features-list">
+              <li><span>✕</span> <strong>Captivate:</strong> Curva muy alta y satisfacción más baja de la categoría (4.1 G2).</li>
+              <li><span>⚠</span> <strong>Gomo:</strong> Edición separada de la vista previa (no es WYSIWYG en vivo).</li>
+              <li><span>✓</span> <strong>Ambas:</strong> Buen soporte técnico para empresas con flujos consolidados.</li>
+            </ul>
+            <div class="comp-footer-tag">
+              <span>Rendimiento: <strong>Variable</strong></span>
+              <span style="color:#fb923c; font-weight:700;">G2: 4.1 a 4.6</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN 2: ESTRUCTURA, FORMATOS Y BRANDING -->
+      <section id="estructura" class="section-block">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-number">2</span>
+            <div>
+              <h2 class="section-title">2. Estructura, Formatos de Curso y Personalización de Marca</h2>
+              <p class="section-subtitle">Gobernanza visual: arquitecturas de curso, plantillas corporativas y adaptación cromática</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-takeaway-bar">
+          <div class="takeaway-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+          </div>
+          <div>
+            <strong>Resumen comparativo del bloque:</strong> <em>isEazy Author</em> destaca con dos formatos estructurales nativos (<strong>Classic y Express</strong>) y su tecnología exclusiva <strong>SmartColors</strong>. <em>Rise</em> solo permite scroll vertical fijo, <em>Storyline</em> requiere maquetar cada slide desde cero y <em>iSpring</em> depende del patrón de diapositivas de PowerPoint.
+          </div>
+        </div>
+
+        <div class="comparative-grid">
+          <div class="comp-card highlight">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-iseazy">isEazy Author</span>
+              <span class="card-badge badge-exclusive">SmartColors</span>
+            </div>
+            <div class="comp-title">Classic, Express & SmartColors</div>
+            <ul class="comp-features-list">
+              <li><strong>Arquitectura dual:</strong> Permite elegir formato <em>Classic</em> (para cursos extensos con menús y subsecciones) o formato <em>Express</em> (microlearning lineal ágil para móvil).</li>
+              <li><strong>SmartColors (Exclusivo):</strong> Ajusta en 1 solo clic la paleta cromática a todos los elementos del curso garantizando contraste accesible.</li>
+              <li><strong>+300 Plantillas por caso de uso:</strong> Diseños específicos para Compliance, Onboarding, Ventas y Soft Skills con editor corporativo propio.</li>
+            </ul>
+          </div>
+
+          <div class="comp-card">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-rise">Articulate Rise</span>
+              <span class="comp-model-label">Scroll Lineal</span>
+            </div>
+            <div class="comp-title">Estructura Fija Vertical</div>
+            <ul class="comp-features-list">
+              <li><strong>Formato único:</strong> Solo admite navegación vertical continua mediante scroll. No ofrece estructura de diapositivas clásicas.</li>
+              <li><strong>Branding:</strong> Configuración básica de color de acento principal y tipografía de cabecera.</li>
+              <li><strong>Plantillas:</strong> Colección básica de lecciones prediseñadas en inglés. Sin tecnología de remaquetado inteligente.</li>
+            </ul>
+          </div>
+
+          <div class="comp-card">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-storyline">Articulate Storyline</span>
+              <span class="comp-model-label">Lienzo Libre</span>
+            </div>
+            <div class="comp-title">Maquetación Slide por Slide</div>
+            <ul class="comp-features-list">
+              <li><strong>Libertad absoluta:</strong> Puedes colocar cualquier botón o menú donde desees, pero sin coherencia responsive automática.</li>
+              <li><strong>Plantillas de estilo:</strong> Muy limitado; la mayoría de plantillas complejas deben comprarse o programarse a mano.</li>
+              <li><strong>Cambio de marca:</strong> Cambiar colores corporativos en un curso existente requiere editar los estados de decenas de botones manualmente.</li>
+            </ul>
+          </div>
+
+          <div class="comp-card">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-ispring">iSpring Suite (AI)</span>
+              <span class="comp-model-label">Diapositivas PPT</span>
+            </div>
+            <div class="comp-title">Basado en Patrones de PowerPoint</div>
+            <ul class="comp-features-list">
+              <li><strong>Plantillas:</strong> Acceso a la <em>Content Library</em> de iSpring (fondos y personajes prediseñados).</li>
+              <li><strong>Personalización:</strong> Hereda las herramientas de diseño de PowerPoint (paletas de Office, temas y fuentes del sistema).</li>
+              <li><strong>Limitación:</strong> No dispone de adaptación inteligente en 1 clic ni soporte para cursos tipo microlearning nativo sin diapositivas.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN 3: MULTIMEDIA E INTERACTIVIDAD -->
+      <section id="multimedia" class="section-block">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-number">3</span>
+            <div>
+              <h2 class="section-title">3. Catálogo Multimedia, Recursos Interactivos y Captura</h2>
+              <p class="section-subtitle">Comparativa de interactivos nativos: Flashcards, Hotspots, Timelines y grabación de pantalla</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-takeaway-bar">
+          <div class="takeaway-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+          </div>
+          <div>
+            <strong>Resumen comparativo del bloque:</strong> <em>isEazy Author</em> incorpora **más de 26 recursos interactivos nativos** listos para insertar sin código. En contraste, <em>Rise</em> ofrece solo una decena de bloques estándar, <em>iSpring</em> cuenta con 14 tipos rígidos y <em>Storyline</em> obliga a programar cada interacción desde cero.
+          </div>
+        </div>
+
+        <div class="comparative-grid">
+          <div class="comp-card highlight">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-iseazy">isEazy Author</span>
+              <span class="tool-name-badge badge-iseazy">+26 Recursos</span>
+            </div>
+            <div class="comp-title">+26 Interactivos Nativos & Grabador Dual</div>
+            <ul class="comp-features-list">
+              <li><strong>Catálogo amplio:</strong> Tarjetas 3D (flashcards), pestañas, acordeones, hotspots con vídeo, comparativas antes/después con slider, líneas de tiempo y carruseles.</li>
+              <li><strong>Grabación integrada:</strong> Captura simultánea de pantalla y cámara web del tutor sin herramientas externas.</li>
+              <li><strong>Vídeo y audio:</strong> Soporte de servidores propios del cliente, subtítulos VTT y plataformas (YouTube, Vimeo, Kaltura).</li>
+            </ul>
+          </div>
+
+          <div class="comp-card">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-storyline">Articulate Storyline</span>
+              <span class="comp-model-label">Interacciones Manuales</span>
+            </div>
+            <div class="comp-title">Potente pero 100% Artesanal</div>
+            <ul class="comp-features-list">
+              <li><strong>Sin catálogo cerrado:</strong> Casi no existen interactivos "listos para usar"; para hacer un acordeón o flashcard se deben crear capas, estados y triggers a mano.</li>
+              <li><strong>Grabación de pantalla:</strong> Excelente herramienta de screencasting con captura de clics y modo tutorial guiado.</li>
+              <li><strong>Tiempo de maquetación:</strong> Requiere hasta 4 veces más horas para conseguir la misma experiencia visual.</li>
+            </ul>
+          </div>
+
+          <div class="comp-card">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-rise">Articulate Rise</span>
+              <span class="comp-model-label">Catálogo Básico</span>
+            </div>
+            <div class="comp-title">Bloques Estándar Limitados</div>
+            <ul class="comp-features-list">
+              <li><strong>Interactivos básicos:</strong> Flashcards sencillas, acordeón vertical, pestañas y proceso paso a paso.</li>
+              <li><strong>Carencias:</strong> Sin comparadores interactivos tipo slider, sin mapas de puntos calientes avanzados y sin grabador de pantalla nativo.</li>
+              <li><strong>Multimedia:</strong> Inserción de vídeo y audio básica, sin soporte avanzado para servidores corporativos propios.</li>
+            </ul>
+          </div>
+
+          <div class="comp-card">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-ispring">iSpring Suite (AI)</span>
+              <span class="comp-model-label">14 Interacciones</span>
+            </div>
+            <div class="comp-title">Módulo Visual Interactions</div>
+            <ul class="comp-features-list">
+              <li><strong>14 Tipos prediseñados:</strong> Pasos guiados, líneas de tiempo, pirámides y glosarios estructurados.</li>
+              <li><strong>Grabador iSpring Cam Pro:</strong> Muy potente para capturar pantalla y webcam con edición de pistas en Windows.</li>
+              <li><strong>Rigidez:</strong> No permite combinar libremente interactivos dentro de una misma pantalla o cuadrícula auto-responsiva.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN 4: GAMIFICACIÓN Y EVALUACIÓN -->
+      <section id="gamificacion" class="section-block">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-number">4</span>
+            <div>
+              <h2 class="section-title">4. Gamificación y Evaluación (Mecánicas de Juego vs. Tests)</h2>
+              <p class="section-subtitle">Juegos interactivos sin programar: Rosco, Trivia, Memory, Ruleta y role-plays</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-takeaway-bar">
+          <div class="takeaway-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 11h4M8 9v4m10-4v4m-2-2h4M6 19h12a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2z"></path></svg>
+          </div>
+          <div>
+            <strong>Resumen comparativo del bloque:</strong> <em>isEazy Author</em> es la única herramienta del benchmark que ofrece mecánicas de juego lúdicas completas listas para rellenar (<strong>Rosco, Trivia, Ruleta, Swipe</strong>). <em>Storyline</em> exige programar variables complejas, mientras que <em>Rise</em> y <em>iSpring</em> se limitan a cuestionarios clásicos.
+          </div>
+        </div>
+
+        <div class="comparative-grid">
+          <div class="comp-card highlight">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-iseazy">isEazy Author</span>
+              <span class="card-badge badge-exclusive">Juegos Nativos</span>
+            </div>
+            <div class="comp-title">Gamificación Real Sin Programar</div>
+            <ul class="comp-features-list">
+              <li><strong>Juegos listos para usar:</strong> Rosco de palabras (Pasapalabra), Ruleta, Trivia con tiempo, Memory de tarjetas, Swipe de decisiones y Alphabet.</li>
+              <li><strong>Evaluaciones completas:</strong> Tests formativos y examen final con bancos aleatorios, nota de corte e intentos limitados.</li>
+              <li><strong>Cero código:</strong> El autor solo introduce las preguntas y respuestas (o deja que la IA las genere).</li>
+            </ul>
+          </div>
+
+          <div class="comp-card">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-ispring">iSpring Suite (AI)</span>
+              <span class="comp-model-label">Diálogos Ramificados</span>
+            </div>
+            <div class="comp-title">Simulaciones de Diálogo (Role-Play)</div>
+            <ul class="comp-features-list">
+              <li><strong>Punto fuerte:</strong> Creador de conversaciones interactivas con personajes y ramificaciones para formación comercial o atención al cliente.</li>
+              <li><strong>Sin juegos dinámicos:</strong> No dispone de dinámicas tipo Rosco, ruleta o memory.</li>
+              <li><strong>Evaluación:</strong> Módulo de Quiz muy completo con 14 tipos de preguntas calificadas sobre PowerPoint.</li>
+            </ul>
+          </div>
+
+          <div class="comp-card">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-storyline">Articulate Storyline</span>
+              <span class="comp-model-label">Programación Compleja</span>
+            </div>
+            <div class="comp-title">Gamificación Bajo Demanda (Vía Triggers)</div>
+            <ul class="comp-features-list">
+              <li><strong>Cualquier juego es posible:</strong> Si sabes programar variables numéricas, de texto y condicionales, puedes crear juegos complejos.</li>
+              <li><strong>Coste en tiempo:</strong> Diseñar un juego tipo Ruleta o Rosco puede consumir semanas de desarrollo técnico.</li>
+              <li><strong>Evaluación:</strong> Soporta bancos de preguntas complejos y envío de respuestas al LMS.</li>
+            </ul>
+          </div>
+
+          <div class="comp-card">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-rise">Articulate Rise</span>
+              <span class="comp-model-label">Solo Cuestionarios</span>
+            </div>
+            <div class="comp-title">Sin Gamificación Nativa</div>
+            <ul class="comp-features-list">
+              <li><strong>Cero juegos:</strong> No dispone de mecánicas lúdicas de ningún tipo.</li>
+              <li><strong>Evaluación rígida:</strong> Solo soporta preguntas tipo test estándar (opción múltiple y selección única) al final de la lección.</li>
+              <li><strong>Feedback:</strong> Retroalimentación simple por pregunta, sin dinámicas de reintento avanzadas ni certificados directos.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN 5: INTELIGENCIA ARTIFICIAL -->
+      <section id="ia-servicios" class="section-block">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-number">5</span>
+            <div>
+              <h2 class="section-title">5. Servicios y Capacidades de Inteligencia Artificial (IA)</h2>
+              <p class="section-subtitle">Generación de juegos, traducción íntegra 1-click, voz sintética y asistencia al autor</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-takeaway-bar">
+          <div class="takeaway-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4m0 12v4M4.93 4.93l2.83 2.83m8.48 8.48l2.83 2.83M2 12h4m12 0h4M4.93 19.07l2.83-2.83m8.48-8.48l2.83-2.83"></path></svg>
+          </div>
+          <div>
+            <strong>Resumen comparativo del bloque:</strong> <em>isEazy Author</em> cuenta con la suite de IA más especializada en e-learning: <strong>traducción automática íntegra en 1 clic</strong> (sin romper la maquetación) y <strong>generador exclusivo de juegos y evaluaciones</strong> analizando el contenido del curso.
+          </div>
+        </div>
+
+        <div class="comparative-grid">
+          <div class="comp-card highlight">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-iseazy">isEazy Author</span>
+              <span class="card-badge badge-exclusive">IA Especializada</span>
+            </div>
+            <div class="comp-title">Suite Integral de IA Instruccional</div>
+            <ul class="comp-features-list">
+              <li><strong>Traducción automática 1-Click:</strong> Traduce cursos enteros a decenas de idiomas conservando intactos interactivos y diseños.</li>
+              <li><strong>Generador IA de Juegos (Exclusivo):</strong> La IA lee el texto del curso y crea de inmediato el Rosco de palabras o Trivia.</li>
+              <li><strong>Voice Over & Subtítulos:</strong> Generación de audio con voces naturales y sincronización automática de subtítulos accesibles.</li>
+            </ul>
+          </div>
+
+          <div class="comp-card">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-ispring">iSpring Suite (AI)</span>
+              <span class="comp-model-label">iSpring Cloud AI</span>
+            </div>
+            <div class="comp-title">Asistente de Texto & Quizzes en Cloud</div>
+            <ul class="comp-features-list">
+              <li><strong>Asistente de redacción:</strong> Genera borradores de texto, resúmenes y preguntas de examen dentro del módulo web iSpring Cloud.</li>
+              <li><strong>Voice Over:</strong> Texto a voz disponible en el plan superior Suite AI.</li>
+              <li><strong>Limitación:</strong> No traduce cursos completos en PowerPoint de forma automática ni genera juegos gamificados con IA.</li>
+            </ul>
+          </div>
+
+          <div class="comp-card">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-storyline">Articulate Storyline / Rise</span>
+              <span class="comp-model-label">Articulate AI</span>
+            </div>
+            <div class="comp-title">Asistencia en Borradores y Bloques</div>
+            <ul class="comp-features-list">
+              <li><strong>Articulate AI:</strong> Ayuda a sintetizar textos y crear bloques de preguntas tipo test básicos dentro de Rise.</li>
+              <li><strong>En Storyline:</strong> Texto a voz básico (sin subtitulado automático inteligente en un clic).</li>
+              <li><strong>Carencias:</strong> Sin traducción automática integral de proyectos en Storyline ni generación de mecánicas de juego lúdicas.</li>
+            </ul>
+          </div>
+
+          <div class="comp-card">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-genially">Genially / Gomo</span>
+              <span class="comp-model-label">IA en Gráficos y Texto</span>
+            </div>
+            <div class="comp-title">IA Orientada a Contenido Visual</div>
+            <ul class="comp-features-list">
+              <li><strong>Genially AI:</strong> Asistencia para reescribir textos y sugerir estructuras de presentación gráfica interactiva.</li>
+              <li><strong>Gomo:</strong> Traducción integrada para grandes proyectos globales, pero sin IA generativa para evaluaciones o dinámicas.</li>
+              <li><strong>Sin avatares integrados nativos:</strong> Generalmente requieren conectores o servicios externos.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN 6: COLABORACIÓN Y ACCESIBILIDAD -->
+      <section id="colaboracion" class="section-block">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-number">6</span>
+            <div>
+              <h2 class="section-title">6. Colaboración en Equipo, Productividad y Accesibilidad WCAG</h2>
+              <p class="section-subtitle">Revisores sin licencia, coedición en tiempo real y cumplimiento normativo AA/AAA</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-takeaway-bar">
+          <div class="takeaway-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+          </div>
+          <div>
+            <strong>Resumen comparativo del bloque:</strong> <em>isEazy Author</em> permite invitar a **revisores externos (SMEs) sin consumir licencias de autor** y genera accesibilidad **WCAG 2.1 AA/AAA automática** sin duplicar trabajo de maquetación, frente a la laboriosa accesibilidad manual de <em>Storyline</em> o el visor de texto plano de <em>iSpring</em>.
+          </div>
+        </div>
+
+        <div class="comparative-grid">
+          <div class="comp-card highlight">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-iseazy">isEazy Author</span>
+              <span class="card-badge badge-exclusive">WCAG Automática</span>
+            </div>
+            <div class="comp-title">Coedición Real, Revisores & WCAG AAA</div>
+            <ul class="comp-features-list">
+              <li><strong>Revisores en tiempo real (Nativo):</strong> Enlace directo para que expertos o clientes dejen comentarios en cada pantalla sin licencia de pago.</li>
+              <li><strong>Accesibilidad automática WCAG:</strong> Navegación por teclado, lectores de pantalla y contraste AA/AAA directo sobre el diseño original.</li>
+              <li><strong>Puntos de restauración:</strong> Historial completo de versiones y autoguardado en la nube.</li>
+            </ul>
+          </div>
+
+          <div class="comp-card">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-storyline">Articulate Storyline</span>
+              <span class="comp-model-label">Revisión en Review 360</span>
+            </div>
+            <div class="comp-title">Accesibilidad Manual & Review 360</div>
+            <ul class="comp-features-list">
+              <li><strong>Articulate Review 360:</strong> Buen sistema de comentarios en la nube para revisar cursos exportados.</li>
+              <li><strong>Accesibilidad WCAG:</strong> Extremadamente laboriosa; el autor debe definir el orden de tabulación y etiquetas ARIA de cada elemento a mano.</li>
+              <li><strong>Colaboración:</strong> No hay coedición en vivo; los archivos .story se guardan localmente y se bloquean entre autores.</li>
+            </ul>
+          </div>
+
+          <div class="comp-card">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-ispring">iSpring Suite (AI)</span>
+              <span class="comp-model-label">iSpring Cloud Review</span>
+            </div>
+            <div class="comp-title">Revisión en Cloud & Modo Accesible Separado</div>
+            <ul class="comp-features-list">
+              <li><strong>Revisores:</strong> Permite compartir proyectos en iSpring Cloud para recibir feedback de revisores.</li>
+              <li><strong>Accesibilidad WCAG 2.1 AA:</strong> Requiere que el alumno active un "Modo accesible" que transforma el curso en una vista de texto plana separada.</li>
+              <li><strong>Colaboración:</strong> Coedición solo disponible en las páginas web creadas dentro de iSpring Cloud, no sobre el PPT.</li>
+            </ul>
+          </div>
+
+          <div class="comp-card">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-rise">Articulate Rise / Gomo</span>
+              <span class="comp-model-label">Equipos en Cloud</span>
+            </div>
+            <div class="comp-title">Colaboración Nativa en la Nube</div>
+            <ul class="comp-features-list">
+              <li><strong>Coedición:</strong> Múltiples autores pueden colaborar en un mismo curso dentro del equipo corporativo.</li>
+              <li><strong>Accesibilidad Rise:</strong> Buena estructura semántica básica, pero sin cumplimiento estricto garantizado WCAG AAA.</li>
+              <li><strong>Gomo:</strong> Diseñado para grandes equipos corporativos con carpetas compartidas y control de versiones.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN 7: DISTRIBUCIÓN Y LMS -->
+      <section id="publicacion" class="section-block">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-number">7</span>
+            <div>
+              <h2 class="section-title">7. Opciones de Publicación, Distribución e Interoperabilidad LMS</h2>
+              <p class="section-subtitle">Estándares SCORM, xAPI, enlaces directos y soluciones integradas tipo LMS Lite</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="section-takeaway-bar">
+          <div class="takeaway-icon">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+          </div>
+          <div>
+            <strong>Resumen comparativo del bloque:</strong> Todas las herramientas exportan a SCORM, pero <em>isEazy Author</em> integra **isEazy Go (LMS Lite)** para distribuir a grupos y emitir certificados sin contratar un LMS externo. En cambio, <em>iSpring</em> obliga a adquirir su plataforma <em>iSpring Learn</em> por separado.
+          </div>
+        </div>
+
+        <div class="comparative-grid">
+          <div class="comp-card highlight">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-iseazy">isEazy Author</span>
+              <span class="card-badge badge-exclusive">LMS Lite Incluido</span>
+            </div>
+            <div class="comp-title">Interoperabilidad Total & isEazy Go</div>
+            <ul class="comp-features-list">
+              <li><strong>Estándares completos:</strong> SCORM 1.2, SCORM 2004, xAPI (Tin Can) y paquete web compatible con Moodle, Cornerstone, SAP, Docebo, etc.</li>
+              <li><strong>isEazy Go integrado:</strong> Distribución directa a empleados con tracking de avance, gestión de grupos y emisión de certificados sin coste de LMS externo.</li>
+              <li><strong>Web & iFrame:</strong> Enlace público o código embed seguro para SharePoint o intranets.</li>
+            </ul>
+          </div>
+
+          <div class="comp-card">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-ispring">iSpring Suite (AI)</span>
+              <span class="comp-model-label">Soporte LMS Avanzado</span>
+            </div>
+            <div class="comp-title">Máxima Compatibilidad de Estándares</div>
+            <ul class="comp-features-list">
+              <li><strong>Formatos soportados:</strong> SCORM 1.2/2004, xAPI, cmi5 y AICC (el soporte más amplio de especificaciones técnicas).</li>
+              <li><strong>Sin LMS Lite incluido:</strong> Para gestionar usuarios o emitir diplomas requiere contratar su LMS comercial <em>iSpring Learn</em> aparte.</li>
+              <li><strong>iSpring Space:</strong> Permite compartir enlaces de visualización rápida para revisiones internas.</li>
+            </ul>
+          </div>
+
+          <div class="comp-card">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-storyline">Articulate 360 (Storyline / Rise)</span>
+              <span class="comp-model-label">Reach 360 Add-on</span>
+            </div>
+            <div class="comp-title">Exportación Estándar & Reach 360</div>
+            <ul class="comp-features-list">
+              <li><strong>Exportación LMS:</strong> SCORM 1.2, 2004, xAPI y cmi5 impecables para cualquier plataforma corporativa.</li>
+              <li><strong>Reach 360:</strong> Módulo de distribución ligera para deskless workers, pero tarificado como suscripción con coste por usuario activo.</li>
+              <li><strong>Web directa:</strong> Permite alojar cursos en servidores propios mediante exportación HTML5.</li>
+            </ul>
+          </div>
+
+          <div class="comp-card">
+            <div class="comp-tool-tag">
+              <span class="tool-name-badge badge-genially">Genially / Gomo / Captivate</span>
+              <span class="comp-model-label">Web & SCORM</span>
+            </div>
+            <div class="comp-title">Distribución Web y Enlaces Abiertos</div>
+            <ul class="comp-features-list">
+              <li><strong>Genially:</strong> Diseñado para links web abiertos y redes; la exportación SCORM exige planes de pago superiores.</li>
+              <li><strong>Gomo:</strong> Excelente arquitectura de streaming SCORM/xAPI que actualiza cursos en el LMS central en tiempo real.</li>
+              <li><strong>Captivate:</strong> Exportación SCORM tradicional y sincronización con Adobe Learning Manager (Prime).</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN 8: BENCHMARK COMPARATIVO GLOBAL (MATRIZ COMPLETA) -->
+      <section id="benchmark" class="section-block">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-number">8</span>
+            <div>
+              <h2 class="section-title">8. Matriz Global de Benchmark (7 Herramientas)</h2>
+              <p class="section-subtitle">Tabla comparativa de funcionalidades, precios y valoración de usuarios</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Controls / Filters -->
+        <div class="benchmark-controls">
+          <div class="category-tabs">
+            <button class="cat-tab active" data-category="all">Todas las Categorías</button>
+            <button class="cat-tab" data-category="ux">1. UX & Cloud</button>
+            <button class="cat-tab" data-category="customization">2. Personalización</button>
+            <button class="cat-tab" data-category="collaboration">3. Colaboración</button>
+            <button class="cat-tab" data-category="engagement">4. Interactividad & Juegos</button>
+            <button class="cat-tab" data-category="ai">5. Inteligencia Artificial</button>
+            <button class="cat-tab" data-category="accessibility">6. Productividad & WCAG</button>
+            <button class="cat-tab" data-category="lms">7. Distribución & LMS</button>
+            <button class="cat-tab" data-category="pricing">8. Precio & Rating</button>
+          </div>
+
+          <div class="highlight-filter">
+            <label style="display:flex; align-items:center; gap:0.5rem; cursor:pointer;">
+              <input type="checkbox" id="only-differentiators">
+              <span>Mostrar solo ventajas exclusivas / diferenciales</span>
+            </label>
+          </div>
+        </div>
+
+        <!-- Benchmark Table -->
+        <div class="table-card">
+          <table class="benchmark-table">
+            <thead>
+              <tr>
+                <th style="min-width: 230px;">Categoría / Funcionalidad</th>
+                <th class="col-iseazy" style="min-width: 165px;">isEazy Author</th>
+                <th style="min-width: 145px;">Articulate Storyline</th>
+                <th style="min-width: 135px;">Articulate Rise</th>
+                <th style="min-width: 125px;">Gomo</th>
+                <th style="min-width: 125px;">Genially</th>
+                <th style="min-width: 145px;">Adobe Captivate</th>
+                <th style="min-width: 175px;">iSpring Suite (AI)</th>
+              </tr>
+            </thead>
+            <tbody>
+
+              <!-- BLOQUE 1: UX -->
+              <tr class="table-cat-header" data-category="ux">
+                <td colspan="8">1. EXPERIENCIA DE USUARIO (UX)</td>
+              </tr>
+              <tr data-category="ux" data-exclusive="false">
+                <td>Plataforma 100% en la nube</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-no">✕ No (Escritorio)</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-no">✕ No (Escritorio)</span></td>
+                <td><span class="status-pill status-partial">Híbrido (Plugin PPT + Cloud)</span></td>
+              </tr>
+              <tr data-category="ux" data-exclusive="false">
+                <td>Entorno WYSIWYG real</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-partial">Parcial (Basado en PPT)</span></td>
+              </tr>
+              <tr data-category="ux" data-exclusive="false">
+                <td>Intuitivo / Sin formación técnica previa</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ Sí (Nula)</span></td>
+                <td><span class="status-pill status-no">✕ No (Curva alta)</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-no">✕ No (Media)</span></td>
+                <td><span class="status-pill status-no">✕ No (Curva muy alta)</span></td>
+                <td><span class="status-pill status-partial">Sí (Si se domina PPT)</span></td>
+              </tr>
+              <tr data-category="ux" data-exclusive="false">
+                <td>Interfaz de alto rendimiento</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+              </tr>
+
+              <!-- BLOQUE 2: PERSONALIZACIÓN -->
+              <tr class="table-cat-header" data-category="customization">
+                <td colspan="8">2. PERSONALIZACIÓN VISUAL Y BRANDING</td>
+              </tr>
+              <tr data-category="customization" data-exclusive="false">
+                <td>Branding y tipografías propias</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+              </tr>
+              <tr data-category="customization" data-exclusive="false">
+                <td>Biblioteca de plantillas de estilo (+300)</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ Sí (+300)</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+              </tr>
+              <tr data-category="customization" data-exclusive="false">
+                <td>Filtros de edición de imagen integrados</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí (Nativo PPT)</span></td>
+              </tr>
+              <tr data-category="customization" data-exclusive="false">
+                <td>Editor de plantillas corporativas propio</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí (Patrón PPT)</span></td>
+              </tr>
+              <tr data-category="customization" data-exclusive="true">
+                <td>Personalización en 1 clic (SmartColors)</td>
+                <td class="col-iseazy"><span class="status-pill status-exclusive">★ Sí (Exclusivo)</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+              </tr>
+
+              <!-- BLOQUE 3: COLABORACIÓN -->
+              <tr class="table-cat-header" data-category="collaboration">
+                <td colspan="8">3. COLABORACIÓN Y EQUIPOS</td>
+              </tr>
+              <tr data-category="collaboration" data-exclusive="false">
+                <td>Entornos y carpetas compartidas</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-yes">✓ Sí (iSpring Cloud)</span></td>
+              </tr>
+              <tr data-category="collaboration" data-exclusive="false">
+                <td>Colaboración en tiempo real (Coedición)</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-partial">Parcial (Solo Cloud)</span></td>
+              </tr>
+              <tr data-category="collaboration" data-exclusive="false">
+                <td>Gestión de permisos y equipos</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-yes">✓ Sí (Plan Suite AI)</span></td>
+              </tr>
+              <tr data-category="collaboration" data-exclusive="false">
+                <td>Transferencia de proyectos entre usuarios</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+              </tr>
+              <tr data-category="collaboration" data-exclusive="true">
+                <td>Revisores de contenido en tiempo real (SMEs)</td>
+                <td class="col-iseazy"><span class="status-pill status-exclusive">★ Sí (Nativo)</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-yes">✓ Sí (iSpring Cloud)</span></td>
+              </tr>
+
+              <!-- BLOQUE 4: ENGAGEMENT -->
+              <tr class="table-cat-header" data-category="engagement">
+                <td colspan="8">4. ENGAGEMENT E INTERACTIVIDAD</td>
+              </tr>
+              <tr data-category="engagement" data-exclusive="false">
+                <td>Auto-responsivo en todos los dispositivos</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ Sí (Nativo)</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-partial">Adaptativo (Player PPT)</span></td>
+              </tr>
+              <tr data-category="engagement" data-exclusive="false">
+                <td>+26 recursos interactivos nativos</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ Sí (+26)</span></td>
+                <td><span class="status-pill status-no">✕ No (Manual)</span></td>
+                <td><span class="status-pill status-partial">~ Limitado</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-partial">Limitado (14 tipos)</span></td>
+              </tr>
+              <tr data-category="engagement" data-exclusive="true">
+                <td>Gamificación lista para usar (sin programar)</td>
+                <td class="col-iseazy"><span class="status-pill status-exclusive">★ Sí (Juegos listos)</span></td>
+                <td><span class="status-pill status-no">✕ Requiere programar</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-no">✕ No (Solo tests/role-play)</span></td>
+              </tr>
+              <tr data-category="engagement" data-exclusive="false">
+                <td>Grabación webcam y pantalla integradas</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ Ambos</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-partial">Solo pantalla</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Ambos</span></td>
+              </tr>
+              <tr data-category="engagement" data-exclusive="false">
+                <td>Navegación horizontal / vertical y secuencial</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ Sí (Ambos)</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-partial">Solo vertical</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+              </tr>
+              <tr data-category="engagement" data-exclusive="false">
+                <td>Voz en off, subtítulos y vídeo embebido</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-partial">~ Limitado</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+              </tr>
+
+              <!-- BLOQUE 5: IA -->
+              <tr class="table-cat-header" data-category="ai">
+                <td colspan="8">5. SERVICIOS DE INTELIGENCIA ARTIFICIAL</td>
+              </tr>
+              <tr data-category="ai" data-exclusive="false">
+                <td>Traducciones automáticas completas (1-click)</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ Sí (Completa)</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-partial">Parcial (Solo Cloud)</span></td>
+              </tr>
+              <tr data-category="ai" data-exclusive="false">
+                <td>Voice Over (TTS) y Subtítulos automáticos IA</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ Sí (Con subt.)</span></td>
+                <td><span class="status-pill status-partial">Sí (Sin subt.)</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí (Plan Suite AI)</span></td>
+              </tr>
+              <tr data-category="ai" data-exclusive="false">
+                <td>Generación IA de Evaluaciones y Ejercicios</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí (iSpring Cloud)</span></td>
+              </tr>
+              <tr data-category="ai" data-exclusive="true">
+                <td>Generación IA de Juegos interactivos</td>
+                <td class="col-iseazy"><span class="status-pill status-exclusive">★ Sí (Exclusivo)</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+              </tr>
+              <tr data-category="ai" data-exclusive="false">
+                <td>Asistente IA para textos e imágenes</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-partial">Solo texto</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-partial">Solo texto</span></td>
+              </tr>
+              <tr data-category="ai" data-exclusive="false">
+                <td>Presentadores virtuales / corporativos IA</td>
+                <td class="col-iseazy"><span class="status-pill status-partial">Según plan</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Creador personajes</span></td>
+              </tr>
+
+              <!-- BLOQUE 6: PRODUCTIVIDAD -->
+              <tr class="table-cat-header" data-category="accessibility">
+                <td colspan="8">6. PRODUCTIVIDAD Y ACCESIBILIDAD</td>
+              </tr>
+              <tr data-category="accessibility" data-exclusive="false">
+                <td>Banco de imágenes de stock integrado</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí (Content Lib.)</span></td>
+              </tr>
+              <tr data-category="accessibility" data-exclusive="false">
+                <td>Autoguardado y Puntos de restauración</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ Ambos</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-partial">Solo autoguard.</span></td>
+                <td><span class="status-pill status-partial">Solo autoguard.</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-partial">Solo autoguard.</span></td>
+                <td><span class="status-pill status-partial">Parcial (PPT/Cloud)</span></td>
+              </tr>
+              <tr data-category="accessibility" data-exclusive="true">
+                <td>Accesibilidad automática (WCAG 2.1 AA/AAA)</td>
+                <td class="col-iseazy"><span class="status-pill status-exclusive">★ Sí (Automática)</span></td>
+                <td><span class="status-pill status-no">✕ No (Manual)</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-partial">Parcial (Vista de texto)</span></td>
+              </tr>
+              <tr data-category="accessibility" data-exclusive="false">
+                <td>Importar PowerPoint (PPT) & Exportar PDF</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ Ambos</span></td>
+                <td><span class="status-pill status-yes">✓ Ambos</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-yes">✓ Ambos</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-yes">✓ Ambos</span></td>
+                <td><span class="status-pill status-yes">✓ Sí (Nativo PPT)</span></td>
+              </tr>
+
+              <!-- BLOQUE 7: DISTRIBUCIÓN -->
+              <tr class="table-cat-header" data-category="lms">
+                <td colspan="8">7. DISTRIBUCIÓN Y LMS</td>
+              </tr>
+              <tr data-category="lms" data-exclusive="false">
+                <td>Exportar SCORM (1.2 / 2004), xAPI y Web</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-partial">~ Limitado</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí (+ cmi5 / AICC)</span></td>
+              </tr>
+              <tr data-category="lms" data-exclusive="false">
+                <td>Todo en uno (LMS Lite integrado)</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ isEazy Go</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-yes">✓ Sí</span></td>
+                <td><span class="status-pill status-yes">✓ Con Prime</span></td>
+                <td><span class="status-pill status-no">✕ No (iSpring Learn aparte)</span></td>
+              </tr>
+              <tr data-category="lms" data-exclusive="true">
+                <td>Descarga de certificados y grupos (LMS Lite)</td>
+                <td class="col-iseazy"><span class="status-pill status-exclusive">★ Sí (Completo)</span></td>
+                <td><span class="status-pill status-partial">Solo grupos</span></td>
+                <td><span class="status-pill status-partial">Solo grupos</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No (Solo LMS de pago)</span></td>
+              </tr>
+
+              <!-- BLOQUE 8: PRECIO & RATING -->
+              <tr class="table-cat-header" data-category="pricing">
+                <td colspan="8">8. SOPORTE, PRECIO Y VALORACIÓN G2</td>
+              </tr>
+              <tr data-category="pricing" data-exclusive="false">
+                <td>Academia y Webinars en directo</td>
+                <td class="col-iseazy"><span class="status-pill status-yes">✓ Ambos</span></td>
+                <td><span class="status-pill status-yes">✓ Ambos</span></td>
+                <td><span class="status-pill status-partial">Solo Academia</span></td>
+                <td><span class="status-pill status-yes">✓ Ambos</span></td>
+                <td><span class="status-pill status-partial">Solo Academia</span></td>
+                <td><span class="status-pill status-yes">✓ Ambos</span></td>
+                <td><span class="status-pill status-yes">✓ Ambos</span></td>
+              </tr>
+              <tr data-category="pricing" data-exclusive="true">
+                <td>Cuenta Freemium y Suscripción mensual</td>
+                <td class="col-iseazy"><span class="status-pill status-exclusive">★ Sí (Ambos)</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-no">✕ No</span></td>
+                <td><span class="status-pill status-partial">Solo mensual</span></td>
+                <td><span class="status-pill status-no">✕ No (Solo anual + Trial)</span></td>
+              </tr>
+              <tr data-category="pricing" data-exclusive="false">
+                <td><strong>Precio orientativo de entrada</strong></td>
+                <td class="col-iseazy"><strong style="color:#10b981;">Gratis / ~$9/mes</strong></td>
+                <td>~$1,499 / año</td>
+                <td>~$1,499 / año</td>
+                <td>~$1,299 / año</td>
+                <td>~$1,035 / año*</td>
+                <td>~$33 / mes</td>
+                <td>~$970 - $1,290 / año</td>
+              </tr>
+              <tr data-category="pricing" data-exclusive="false">
+                <td><strong>Valoración media de clientes (G2)</strong></td>
+                <td class="col-iseazy"><strong style="color:#fbbf24;">★ 4.9 / 5</strong></td>
+                <td>4.7 / 5</td>
+                <td>4.5 / 5</td>
+                <td>4.6 / 5</td>
+                <td>4.8 / 5</td>
+                <td>4.1 / 5</td>
+                <td>4.6 / 5</td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <!-- SECCIÓN 8.2: ANÁLISIS VS CADA COMPETIDOR -->
+      <section id="competidores" class="section-block">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-number">8.2</span>
+            <div>
+              <h2 class="section-title">8.2. Fichas Cualitativas Cara a Cara</h2>
+              <p class="section-subtitle">Balance detallado de pros, contras y contexto idóneo de uso frente a cada alternativa</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="vs-card-grid">
+          <!-- Storyline -->
+          <div class="vs-card">
+            <div class="vs-header">
+              <div class="vs-rival">vs. Articulate Storyline</div>
+              <div class="vs-rating">G2: 4.7/5 | ~$1,499/año</div>
+            </div>
+            <div class="vs-point">
+              <strong>Fortaleza rival:</strong> Simulaciones de software complejas a medida mediante lógica de programación y triggers avanzados.
+            </div>
+            <div class="vs-point">
+              <strong>Debilidad clave:</strong> No es nativo en la nube (software de escritorio Windows), curva de aprendizaje empinada, no es auto-responsivo nativo y la accesibilidad o gamificación exige maquetar manualmente cada interacción.
+            </div>
+            <div class="vs-takeaway">
+              <strong>Veredicto:</strong> isEazy Author produce cursos visualmente modernos en un 70% menos de tiempo y sin conocimientos técnicos.
+            </div>
+          </div>
+
+          <!-- Rise -->
+          <div class="vs-card">
+            <div class="vs-header">
+              <div class="vs-rival">vs. Articulate Rise</div>
+              <div class="vs-rating">G2: 4.5/5 | ~$1,499/año</div>
+            </div>
+            <div class="vs-point">
+              <strong>Fortaleza rival:</strong> Producción ágil en la nube con formato de scroll vertical moderno y limpio.
+            </div>
+            <div class="vs-point">
+              <strong>Debilidad clave:</strong> Muy rígido y repetitivo estéticamente, sin gamificación nativa (cero juegos), sin traducción automática completa por IA y sin soporte para navegación libre o estructuras de curso Classic.
+            </div>
+            <div class="vs-takeaway">
+              <strong>Veredicto:</strong> isEazy Author ofrece igual o mayor agilidad, pero con mucha más variedad visual, catálogo de juegos y SmartColors.
+            </div>
+          </div>
+
+          <!-- iSpring Suite (AI) -->
+          <div class="vs-card" style="border: 1px solid rgba(139, 92, 246, 0.4); background: linear-gradient(135deg, rgba(139, 92, 246, 0.08), rgba(17, 24, 39, 0.75));">
+            <div class="vs-header">
+              <div class="vs-rival" style="color: #c084fc;">vs. iSpring Suite (AI)</div>
+              <div class="vs-rating">G2: 4.6/5 | ~$970-$1,290/año</div>
+            </div>
+            <div class="vs-point">
+              <strong>Fortaleza rival:</strong> Plugin integrado en Microsoft PowerPoint (fácil para quien domina PPT), potente para simulación de diálogos ramificados (role-plays) y grabación de tutoriales de pantalla.
+            </div>
+            <div class="vs-point">
+              <strong>Debilidad clave:</strong> Exclusivo de escritorio Windows con dependencia de MS Office. En móviles reescala diapositivas fijas en vez de ser auto-responsivo fluido; catálogo limitado a 14 interacciones sin juegos gamificados (Rosco, Ruleta, etc.); accesibilidad WCAG 2.1 AA solo mediante vista de texto separada; y precio desde ~$970/año sin opción mensual ni freemium.
+            </div>
+            <div class="vs-takeaway">
+              <strong>Veredicto:</strong> isEazy Author ofrece independencia multiplataforma 100% en la nube (Windows/Mac), diseño auto-responsivo genuino, +26 interactivos con juegos IA y accesibilidad automática sin duplicar vistas.
+            </div>
+          </div>
+
+          <!-- Genially -->
+          <div class="vs-card">
+            <div class="vs-header">
+              <div class="vs-rival">vs. Genially</div>
+              <div class="vs-rating">G2: 4.8/5 | ~$1,035/año</div>
+            </div>
+            <div class="vs-point">
+              <strong>Fortaleza rival:</strong> Animaciones creativas, presentaciones visuales de alto impacto y microinteracciones de diseño libre.
+            </div>
+            <div class="vs-point">
+              <strong>Debilidad clave:</strong> No es una herramienta e-learning estructurada: diseño responsivo y accesibilidad WCAG limitados, maquetación manual laboriosa en lienzo libre, sin flujo robusto de traducción IA ni puntos de restauración.
+            </div>
+            <div class="vs-takeaway">
+              <strong>Veredicto:</strong> isEazy Author asegura rigor pedagógico, empaquetado SCORM impecable y cumplimiento normativo de accesibilidad.
+            </div>
+          </div>
+
+          <!-- Gomo -->
+          <div class="vs-card">
+            <div class="vs-header">
+              <div class="vs-rival">vs. Gomo</div>
+              <div class="vs-rating">G2: 4.6/5 | ~$1,299/año</div>
+            </div>
+            <div class="vs-point">
+              <strong>Fortaleza rival:</strong> Enfoque cloud multi-dispositivo y soporte multi-idioma para grandes organizaciones.
+            </div>
+            <div class="vs-point">
+              <strong>Debilidad clave:</strong> La interfaz no es WYSIWYG en tiempo real, carece de capacidades avanzadas de IA generativa (sin generación de juegos ni evaluaciones por IA) y coste de entrada muy elevado sin opción freemium.
+            </div>
+            <div class="vs-takeaway">
+              <strong>Veredicto:</strong> isEazy Author es más amigable para el autor y cuenta con un ecosistema de IA sustancialmente más avanzado.
+            </div>
+          </div>
+
+          <!-- Adobe Captivate -->
+          <div class="vs-card">
+            <div class="vs-header">
+              <div class="vs-rival">vs. Adobe Captivate</div>
+              <div class="vs-rating">G2: 4.1/5 | ~$33/mes</div>
+            </div>
+            <div class="vs-point">
+              <strong>Fortaleza rival:</strong> Herramienta histórica con potentes opciones de simulación de entornos técnicos y VR.
+            </div>
+            <div class="vs-point">
+              <strong>Debilidad clave:</strong> Curva de aprendizaje muy alta, interfaz compleja y frustrante, carece de coedición colaborativa ágil en la nube y ostenta la valoración de usuarios más baja del sector (4.1).
+            </div>
+            <div class="vs-takeaway">
+              <strong>Veredicto:</strong> isEazy Author supera a Captivate en usabilidad, adopción del equipo de diseño instruccional y satisfacción (4.9 vs 4.1).
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SECCIÓN 9: REGISTRO DE IDEAS Y CASOS DE USO PROPIOS -->
+      <section id="ideacion" class="section-block">
+        <div class="section-header">
+          <div class="section-title-wrap">
+            <span class="section-number">9</span>
+            <div>
+              <h2 class="section-title">9. Registro de Ideas & Casos de Uso Propios</h2>
+              <p class="section-subtitle">Panel interactivo para recopilar propuestas y proyectos del departamento</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="ideation-container">
+          <form id="add-idea-form" class="ideation-form">
+            <input type="text" id="idea-feature" placeholder="Funcionalidad (ej. Rosco IA, Hotspot)" required>
+            <input type="text" id="idea-usecase" placeholder="¿Para qué curso / proyecto nos sirve?" required>
+            <select id="idea-priority">
+              <option value="Alta / Fácil">Alta / Fácil</option>
+              <option value="Alta / Muy fácil">Alta / Muy fácil</option>
+              <option value="Media / Fácil">Media / Fácil</option>
+              <option value="Media / Media">Media / Media</option>
+              <option value="Estratégica / Fácil">Estratégica / Fácil</option>
+            </select>
+            <input type="text" id="idea-notes" placeholder="Comentarios / Ahorro estimado">
+            <button type="submit">+ Añadir Propuesta</button>
+          </form>
+
+          <div style="overflow-x:auto;">
+            <table class="ideation-table">
+              <thead>
+                <tr>
+                  <th style="width: 20%;">Funcionalidad Vista</th>
+                  <th style="width: 32%;">¿Para qué curso/proyecto nos sirve?</th>
+                  <th style="width: 18%;">Prioridad / Dificultad</th>
+                  <th style="width: 24%;">Comentarios & Ventajas</th>
+                  <th style="width: 6%; text-align:right;">Acción</th>
+                </tr>
+              </thead>
+              <tbody id="ideation-tbody">
+                <!-- Dynamically populated from app.js / localStorage -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
